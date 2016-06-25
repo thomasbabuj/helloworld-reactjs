@@ -1,4 +1,4 @@
-# Hello World React app
+# Setting Up a React.js Environment Using Npm, Babel 6 and Webpack
 
 This repo is based on this article,
 

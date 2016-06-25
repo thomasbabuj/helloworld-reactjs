@@ -1,9 +1,17 @@
 import React from 'react';
 import {render} from 'react-dom';
 
+// Importing awesome component
+import AwesomeComponent from './AwesomeComponent.jsx';
+
 class App extends React.Component {
 	render () {
-		return <p>Welcome to React World, Now Watch enabled... !</p>;
+		return (
+			<div>
+				<p>Welcome to React World!</p>
+				<AwesomeComponent />
+			</div>
+		);
 	}
 }
 
